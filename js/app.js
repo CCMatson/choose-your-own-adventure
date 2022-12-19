@@ -5,13 +5,14 @@ import { storyEls } from "../data/story.js"
 // let score = 20
 // let buttonContainer = document.querySelector("button-container")
 
+let currentIndex = 0
 
 
 /*------------------------ Cached Element References ------------------------*/
 const messageEl = document.getElementById("msg")
 
-let buttonElOne = document.getElementById("choice-one")
-let buttonElTwo = document.getElementById("choice-two")
+let buttonElOne = document.querySelector(".choice-one")
+let buttonElTwo = document.querySelector(".choice-two")
 
 /*----------------------------- Event Listeners -----------------------------*/
 // buttonEl.addEventListener("click", displayMessage) 
@@ -19,6 +20,8 @@ buttonElOne.addEventListener("click", handleClick)
 
 buttonElTwo.addEventListener("click", handleClick)
 
+console.log(buttonElOne)
+console.log(buttonElTwo)
 /*-------------------------------- Functions --------------------------------*/
 init()
 
@@ -34,7 +37,15 @@ function init(){
 }
 
 function render(){
+  messageEl.innerHTML = storyEls[currentIndex].scriptText
+  buttonElOne.textContent = storyEls[currentIndex].choiceOne
+  buttonElOne.id = storyEls[currentIndex].choiceOneResults
+
+  buttonElTwo.textContent = storyEls[currentIndex].choiceTwo
+  buttonElTwo.id = storyEls[currentIndex].choiceTwoResults
+
   console.log('render is called')
+  console.log('current index works!', currentIndex)
   //will hold functions that call other functions
 
   //link decision making buttons , 
@@ -45,31 +56,46 @@ function render(){
 }
 
 function handleClick(evt) {
-let buttonChoice = evt.target.id
+  currentIndex = evt.target.id
+  console.log(storyEls[currentIndex].choiceOneResults)
+  if (!storyEls[currentIndex].choiceOneResults){
+    console.log('game over!')
+  }
+
   console.log(evt.target.id)
-  handleMessage(buttonChoice)
+  console.log(currentIndex)
+  console.log(storyEls[currentIndex])
+  // handleMessage(buttonChoice)
   render()
 }
 
 function handleMessage(buttonChoice){
-  for (let i = 1; i < storyEls.length; i ++){
-  if (buttonChoice === "choice-one"){
-    messageEl.innerHTML = storyEls[i].scriptText
-    buttonElOne.textContent = storyEls[i].choiceOne
-    buttonElTwo.textContent = storyEls[i].choiceTwo[i]
-    return
-  }
-  else if (buttonChoice === "choice-two"){
-    messageEl.innerHTML = storyEls[i + 1].scriptText
-    buttonElTwo.textContent = storyEls[i + 1].choiceTwo
-    buttonElOne.textContent = storyEls[i + 1].choiceOne
-    return
-  }
+
+
+
+
+
+
+
+
+  // if (buttonChoice === "choice-one"){
+  //   messageEl.innerHTML = storyEls[i].scriptText
+  //   buttonElOne.textContent = storyEls[i].choiceOne
+  //   buttonElTwo.textContent = storyEls[i].choiceTwo[i]
+  //   return 
+  // }
+  // else if (buttonChoice === "choice-two"){
+  //   messageEl.innerHTML = storyEls[i + 1].scriptText
+  //   buttonElTwo.textContent = storyEls[i + 1].choiceTwo
+  //   //buttonElTwo.id = update to next story id
+  //   buttonElOne.textContent = storyEls[i + 1].choiceOne
+  //   return
+  // }
+  // return
 }
 
-console.log("buttonClick variable works" , buttonChoice)
+// console.log("buttonClick variable works" , buttonChoice)
 
-}
 
 
 

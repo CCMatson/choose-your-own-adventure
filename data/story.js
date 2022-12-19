@@ -1,12 +1,30 @@
 const storyEls = [
 
-  {storyOrder: 0, scriptText: "Welcome to the Salish Sea, an inland sea that encompasses Puget Sound, the San Juan Islands and the waters off of Vancouver, BC. Do you want to stay on the land or explore the water?", choiceOne: "Stay on land", choiceTwo: "Explore the water", choiceOneResults: 1, choiceTwoResults: 2},
+  {storyOrder: 0, 
+   scriptText: "Welcome to the Salish Sea, an inland sea that encompasses Puget Sound, the San Juan Islands and the waters off of Vancouver, BC. Do you want to stay on the land or explore the water?", 
+   choiceOne: "Stay on land", 
+   choiceTwo: "Explore the water", 
+   choiceOneResults: 1, 
+   choiceTwoResults: 2},
 
-  {storyOrder: 1, scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You head home to rest after a long day.", choiceOne: " ", choiceTwo: " " , choiceOneResults: null, choiceTwoResults: null},
+  {storyOrder: 1, 
+    scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You head home to rest after a long day.", 
+  choiceOne: " ", 
+  choiceTwo: " " , 
+  choiceOneResults: null, 
+  choiceTwoResults: null},
 
-  {storyOrder: 2, scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest? ", choiceOne: "Octopus" , choiceTwo: "Kelp Forest" , choiceOneResults: 3, choiceTwoResults: 6},
+  {storyOrder: 2, 
+    scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest? ", choiceOne: "Octopus" , 
+  choiceTwo: "Kelp Forest" , 
+  choiceOneResults: 3, 
+  choiceTwoResults: 6},
 
-  {storyOrder: 3, scriptText: "You decide to visit the largest octopus species in the world. Giant Pacific Octopuses weigh about 90lbs on average and can stretch up to 20 feet. The GPO invites you to a dinner of crustaceans a little further deep in the sea. Do you go?", choiceOne: "Go to dinner" , choiceTwo: "Stay behind" , choiceOneResults: 4 , choiceTwoResults: 5},
+  {storyOrder: 3, 
+    scriptText: "You decide to visit the largest octopus species in the world. Giant Pacific Octopuses weigh about 90lbs on average and can stretch up to 20 feet. The GPO invites you to a dinner of crustaceans a little further deep in the sea. Do you go?", choiceOne: "Go to dinner" , 
+    choiceTwo: "Stay behind" , 
+    choiceOneResults: 4 , 
+    choiceTwoResults: 5},
 
   {storyOrder: 4, scriptText: "When you tell the octopus that you aren't coming to dinner, she asks you to babysit her sister's 300,000 newly hatched eggs. You spend the afternoon with the baby octopus larvae, but you are secretly heart broken because you know that only a few will survive life to grow up to be as big as their auntie." , choiceOne: " ", choiceTwo: " ", choiceOneResults: null , choiceTwoResults: null},
 
