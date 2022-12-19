@@ -11,20 +11,20 @@ div {
   border: 1px solid black;
 }
 .text-box{
-  height: 100px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: palegoldenrod
 }
 .card-container {
-height: 100px;
+height: 50px;
 display: flex;
 align-items: center;
 }
 
 .button-container{
-height: 200px;
+height: 100px;
 display: flex;
 justify-content: space-around;
 align-items: center;

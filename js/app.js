@@ -2,11 +2,7 @@
 import { storyEls } from "../data/story.js"
 
 /*-------------------------------- Variables --------------------------------*/
-// let score = 20
-// let buttonContainer = document.querySelector("button-container")
-
 let currentIndex = 0
-
 
 /*------------------------ Cached Element References ------------------------*/
 const messageEl = document.getElementById("msg")
@@ -15,29 +11,24 @@ let buttonElOne = document.querySelector(".choice-one")
 let buttonElTwo = document.querySelector(".choice-two")
 
 /*----------------------------- Event Listeners -----------------------------*/
-// buttonEl.addEventListener("click", displayMessage) 
-buttonElOne.addEventListener("click", handleClick)
 
+buttonElOne.addEventListener("click", handleClick)
 buttonElTwo.addEventListener("click", handleClick)
 
-console.log(buttonElOne)
-console.log(buttonElTwo)
+// console.log(buttonElOne)
+// console.log(buttonElTwo)
 /*-------------------------------- Functions --------------------------------*/
 init()
 
 function init(){
   buttonElOne.textContent = (storyEls[0].choiceOne)
   buttonElTwo.textContent = (storyEls[0].choiceTwo)
-  //currentChoice = 0 (variable), update as you click buttons
   messageEl.textContent = storyEls[0].scriptText
-//starting score ? Esp if changing later
-//board set up
-  // render()
-  //initialize a variable
 }
 
 function render(){
   messageEl.innerHTML = storyEls[currentIndex].scriptText
+
   buttonElOne.textContent = storyEls[currentIndex].choiceOne
   buttonElOne.id = storyEls[currentIndex].choiceOneResults
 
@@ -57,63 +48,22 @@ function render(){
 
 function handleClick(evt) {
   currentIndex = evt.target.id
-  console.log(storyEls[currentIndex].choiceOneResults)
   if (!storyEls[currentIndex].choiceOneResults){
     console.log('game over!')
+    //ADD SOMETHING HERE TO CLEAR HTML
+    // console.log(storyEls[currentIndex].choiceOneResults)
   }
-
-  console.log(evt.target.id)
-  console.log(currentIndex)
-  console.log(storyEls[currentIndex])
+  // console.log(evt.target.id)
+  // console.log(currentIndex)
+  // console.log(storyEls[currentIndex])
   // handleMessage(buttonChoice)
   render()
 }
 
-function handleMessage(buttonChoice){
 
 
 
 
-
-
-
-
-  // if (buttonChoice === "choice-one"){
-  //   messageEl.innerHTML = storyEls[i].scriptText
-  //   buttonElOne.textContent = storyEls[i].choiceOne
-  //   buttonElTwo.textContent = storyEls[i].choiceTwo[i]
-  //   return 
-  // }
-  // else if (buttonChoice === "choice-two"){
-  //   messageEl.innerHTML = storyEls[i + 1].scriptText
-  //   buttonElTwo.textContent = storyEls[i + 1].choiceTwo
-  //   //buttonElTwo.id = update to next story id
-  //   buttonElOne.textContent = storyEls[i + 1].choiceOne
-  //   return
-  // }
-  // return
-}
-
-// console.log("buttonClick variable works" , buttonChoice)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// functions needed: update currentChoice
-// functions needed: pull data from sheet to displayMessage
-// functions needed: update each button
-// functions needed update messageELs
 
 
 
