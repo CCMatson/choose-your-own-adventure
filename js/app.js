@@ -3,7 +3,8 @@ import { storyEls } from "../data/story.js"
 
 /*-------------------------------- Variables --------------------------------*/
 // let score = 20
-let buttonContainer = document.querySelector("button-container")
+// let buttonContainer = document.querySelector("button-container")
+
 
 
 /*------------------------ Cached Element References ------------------------*/
@@ -25,7 +26,7 @@ function init(){
   buttonElOne.textContent = (storyEls[0].choiceOne)
   buttonElTwo.textContent = (storyEls[0].choiceTwo)
   //currentChoice = 0 (variable), update as you click buttons
-// messageEl.textContent = (storyEls[currentChoice].scriptText)
+  messageEl.textContent = storyEls[0].scriptText
 //starting score ? Esp if changing later
 //board set up
   // render()
@@ -46,26 +47,42 @@ function render(){
 function handleClick(evt) {
 let buttonChoice = evt.target.id
   console.log(evt.target.id)
-  // console.log(typeof evt.path[0])
   handleMessage(buttonChoice)
   render()
-  //specific and location based, event listener
-  // event as parameter, take adventage of location
-  //
 }
 
 function handleMessage(buttonChoice){
+  for (let i = 1; i < storyEls.length; i ++){
   if (buttonChoice === "choice-one"){
-    messageEl.innerHTML = storyEls[1].scriptText
+    messageEl.innerHTML = storyEls[i].scriptText
+    buttonElOne.textContent = storyEls[i].choiceOne
+    buttonElTwo.textContent = storyEls[i].choiceTwo[i]
+    return
   }
   else if (buttonChoice === "choice-two"){
-    messageEl.innerHTML = storyEls[2].scriptText
+    messageEl.innerHTML = storyEls[i + 1].scriptText
+    buttonElTwo.textContent = storyEls[i + 1].choiceTwo
+    buttonElOne.textContent = storyEls[i + 1].choiceOne
+    return
   }
-console.log("buttonClick variable works" , buttonChoice)
-  // if choiceOne ...
-  // if choiceTwo....
-  // messageEl.innerHTML =  storyEls[0].scriptText
 }
+
+console.log("buttonClick variable works" , buttonChoice)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // functions needed: update currentChoice
 // functions needed: pull data from sheet to displayMessage
