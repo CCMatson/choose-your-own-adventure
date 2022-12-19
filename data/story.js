@@ -1,15 +1,22 @@
-storyEls = [
-  {storyOrder: 1, script: "Welcome to your first day at Seattle Grace Hospital. You had an amazing morning in the ER, Doctor. It's almost time for lunch, but first you have to drop off some samples at the lab. The lab tech says that she has been developing some new technology. She asks if you want to be the first to try her new invention." , prompt: "Do you say yes or no?", nextStory: [2 , 3], choice: ['yes', 'no']} ,
-  {storyOrder: 2, script: "You say no, and go on your lunch break. When you return you find your position has been cut. You apply for a new role at the General Hospital, which is a better career move for you. This chapter of your story is over.", prompt: [null], nextStory: [null], choice: [null]},
-  {storyOrder: 3, script: "You say yes, because adventure is your middle name. The lab tech explains what will happen next and tells you to stand still on the spot marked X. Suddenly, a laser zaps you in the chest and suddenly you are 1 micron tall. You are about to be the first person to shrink and travel inside a human body!" , prompt: "Where do you want to go first? 
-  
-  ", nextStory: [4, 5], choice: ['skeletal', 'muscular']},
+const storyEls = [
 
-  {storyOrder: 4, script: "You decide to explore the skeletal system, and go to find the largest bone in the body. Which bone are you looking for? Choose one: femur or humerous", nextStory: [5, 6], choice: ['femur', 'humorous']},
-  {storyOrder: 6, script: "You love a good joke, so you head to the humerous. As you go towards the longest upper arm bone, you remember that the femur is actually the largest bone in the body. You pause, and are surprise attacked by a white blood cell. As you begin to disolve, you wish you'd studied more.", nextStory: [null], choice: [null]},
+  {storyOrder: 0, scriptText: "Welcome to the Salish Sea, an inland sea that encompasses Puget Sound, the San Juan Islands and the waters off of Vancouver, BC. Do you want to stay on the land or explore the water?", choiceOne: "Stay on land", choiceTwo: "Explore the water", nextStory: [1 , 2 ]},
+
+  {storyOrder: 1, scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You head home to rest after a long day.", choiceOne: " ", choiceTwo: " " , nextStory:[null, null]},
+
+  {storyOrder: 2, scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest? ", choiceOne: "Octopus" , choiceTwo: "Kelp Forest" , nextStory:[4 , 5]},
+
+  {storyOrder: 4, scriptText: "You decide to visit the largest octopus species in the world. Giant Pacific Octopuses weigh less than 70lbs and can stretch up to 15lbs. The GPO invites you to a dinner of crustaceans at the bottom of the sea. Do you go?", choiceOne: "Follow the octopus", choiceTwo: "Say no to dinner", nextStory:[6 ,7]},
+
+  // {storyOrder: 5, scriptText: "You pick kelp bed. ", choiceOne: , choiceTwo: , nextStory:[]},
+
+  {storyOrder: 6, scriptText: "When you tell the octopus that you aren't coming to dinner, she asks you to babysit her sister's 300,000 newly hatched eggs. You spend the afternoon with the baby octopus larvae, but you are secretly heart broken because you know that only a few will survive life to grow up to be as big as their auntie." , choiceOne: " ", choiceTwo: " ", nextStory:[]},
+  {storyOrder: 7, scriptText: "You follow the octopus deeper underwater. It's getting darker. You see a flicker of light pass the corner of your eye. Do you go investigate?", choiceOne: "Yes", choiceTwo: "No" , nextStory:[]},
+  // {storyOrder: , scriptText: , choiceOne: , choiceTwo: , nextStory:[]},
+  // {storyOrder: , scriptText: , choiceOne: , choiceTwo: , nextStory:[]},
  
-  
-
-
 
 ]
+
+
+export { storyEls }
