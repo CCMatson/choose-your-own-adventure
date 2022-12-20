@@ -1,6 +1,6 @@
 const storyEls = [
 
-  {storyOrder: 0, 
+  {storyOrder: 0,
     scriptText: "Welcome to the Salish Sea, an inland sea that encompasses Puget Sound, the San Juan Islands and the waters off of Vancouver, BC. Do you want to stay on the land or explore the water?", 
     choiceOne: "Stay on land", 
     choiceTwo: "Explore the water", 

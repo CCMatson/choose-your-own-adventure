@@ -1,15 +1,19 @@
 body {
   background-color: slategrey;
 }
+
 nav {
   background-color: lightyellow;
 }
+
 header {
   background-color: lightblue;
 }
+
 div {
   border: 1px solid black;
 }
+
 .text-box{
   height: 400px;
   display: flex;
@@ -17,6 +21,7 @@ div {
   align-items: center;
   background-color: palegoldenrod
 }
+
 .card-container {
 height: 50px;
 display: flex;
@@ -30,14 +35,15 @@ justify-content: space-around;
 align-items: center;
 background-color: aquamarine;
 }
+
 #choice-one{
   height: 100px;
   width: 100px;
 }
+
 #choice-two{
   height: 100px;
   width: 100px;
-
 }
 
 footer{

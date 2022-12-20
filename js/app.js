@@ -7,6 +7,8 @@ let currentIndex = 0
 /*------------------------ Cached Element References ------------------------*/
 const messageEl = document.getElementById("msg")
 
+let buttonContainer = document.querySelector(".button-container")
+
 let buttonElOne = document.querySelector(".choice-one")
 let buttonElTwo = document.querySelector(".choice-two")
 
@@ -37,56 +39,16 @@ function render(){
 
   console.log('render is called')
   console.log('current index works!', currentIndex)
-  //will hold functions that call other functions
-
-  //link decision making buttons , 
-  //script
-  //clear inner html of each container
-  // displayMessage()
-  //shows the state of the game, in "card-container"
 }
 
 function handleClick(evt) {
   currentIndex = evt.target.id
   if (!storyEls[currentIndex].choiceOneResults){
+    buttonContainer.style.display = 'none'
+    // buttonContainer.removeChild(buttonElOne)
+    // buttonContainer.removeChild(buttonElTwo
     console.log('game over!')
-    //ADD SOMETHING HERE TO CLEAR HTML
-    // console.log(storyEls[currentIndex].choiceOneResults)
   }
-  // console.log(evt.target.id)
-  // console.log(currentIndex)
-  // console.log(storyEls[currentIndex])
-  // handleMessage(buttonChoice)
   render()
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-//if index = #, go get that from the array
-
-// calling parts of storyEls, and 
-// 
-// function Octopus(){
-//   // call story elements from that choice
-// }
-
-
-
-// function assignButtons(){
-
-// }
-
-//what calls quizGame
-// quizGame()
-
-// function quizGame(){
-//   console.log('quiz game is called')
