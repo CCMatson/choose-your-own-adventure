@@ -3,11 +3,11 @@ body {
 }
 
 nav {
-  background-color: lightyellow;
+  background-color: #e63946;
 }
 
 header {
-  background-color: lightblue;
+  background-color: #f4a261
 }
 
 div {
@@ -15,28 +15,24 @@ div {
 }
 
 .text-box{
-  height: 400px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: palegoldenrod
+  background-color: #bde0fe;
 }
 
-.card-container {
-height: 50px;
-display: flex;
-align-items: center;
+.image{
+  height: 300px;
+  width: 500px;
 }
 
 .button-container{
-height: 100px;
-display: flex;
-justify-content: space-around;
-align-items: center;
-background-color: aquamarine;
+  height: 50px;
+  background-color: #2a9d8f;
 }
 
-#choice-one{
+/* #choice-one{
   height: 100px;
   width: 100px;
 }
@@ -44,8 +40,26 @@ background-color: aquamarine;
 #choice-two{
   height: 100px;
   width: 100px;
+} */ */
+
+/* button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 10px solid rgba(0, 0, 0, .1);
+  width: 100px;
+  height: 100px;
+  border-radius: 33%;
+  float: right;
+} */
+
+button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background-color: #ADE8F4;
 }
 
 footer{
-  background-color: lightpink;
+  background-color: #f1faee;
 }
