@@ -46,7 +46,7 @@ const storyEls = [
     audio: "../assets/audio/button-click.wav "},
     
   {storyOrder: 5, 
-    scriptText: "When you tell the octopus that you aren't coming to dinner, he asks you to babysit. His sister's has 300,000 newly hatched eggs; each baby plankton is the size of a grain of rice. You have a magical day playing, but you are secretly heart broken because you know that only a few will survive life to grow up to be as big as their parents." , 
+    scriptText: "When you tell the octopus that you aren't coming to dinner, he asks you to babysit. His sister's has 300,000 newly hatched eggs; each baby plankton is the size of a grain of rice. You end up exhausted. Better luck next time!" , 
     choiceOne: " ", 
     choiceTwo: " ", 
     choiceOneResults: null , 
