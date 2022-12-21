@@ -43,7 +43,7 @@ const storyEls = [
     choiceOneResults: null, 
     choiceTwoResults: null,
     image: "../assets/images/waves.png",
-    audio: " "},
+    audio: "../assets/audio/button-click.wav "},
     
   {storyOrder: 5, 
     scriptText: "When you tell the octopus that you aren't coming to dinner, he asks you to babysit. His sister's has 300,000 newly hatched eggs; each baby plankton is the size of a grain of rice. You have a magical day playing, but you are secretly heart broken because you know that only a few will survive life to grow up to be as big as their parents." , 
@@ -52,7 +52,7 @@ const storyEls = [
     choiceOneResults: null , 
     choiceTwoResults: null,
     image: "../assets/images/waves.png",
-    audio: " "},
+    audio: "../assets/audio/button-click.wav "},
 
   {storyOrder: 6, 
     scriptText: "You swim toward the kelp forest. Out of the corner of your eye you see a flickering light. Do you follow the light, or keep swimming into the dark kelp forest", 
@@ -61,7 +61,7 @@ const storyEls = [
     choiceOneResults: 7, 
     choiceTwoResults: 8,
     image: "../assets/images/waves.png",
-    audio: " "},
+    audio: "../assets/audio/button-click.wav "},
 
   {storyOrder: 7, 
     scriptText: "You choose to to keep swimming into the dark. You do not see a 6-gill shark approaching, and you are eaten in one bite.", 
@@ -79,7 +79,7 @@ const storyEls = [
     choiceOneResults: 9, 
     choiceTwoResults: 10,
     image: "../assets/images/waves.png",
-    audio: " "},
+    audio: "../assets/audio/freeWilly.mp3"},
   
   {storyOrder: 9, 
     scriptText: "You float with the jellies for the afternoon and meditate. Later you return home, feeling happy and calm.", 

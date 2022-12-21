@@ -1,6 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 import { storyEls } from "../data/story.js"
 const btnSound = new Audio("../assets/audio/button-click.wav")
+const orcaSound = new Audio("../assets/audio/freeWilly.mp3")
 
 /*-------------------------------- Variables --------------------------------*/
 let currentIndex = 0
@@ -19,9 +20,14 @@ let resetBtnEl = document.querySelector(".reset")
 buttonElOne.addEventListener("click", handleClick)
 buttonElTwo.addEventListener("click", handleClick)
 resetBtnEl.addEventListener("click", () => {
-  btnSound.play(), init()
-}
-)
+  init()
+  btnSound.play()
+console.log(currentIndex)
+console.log(storyEls[currentIndex].choiceOneResults)
+})
+
+  // btnSound.play(), init(), currentIndex = 0
+
 
 // console.log(buttonElOne)
 // console.log(buttonElTwo)
@@ -29,37 +35,52 @@ resetBtnEl.addEventListener("click", () => {
 init()
 
 function init(){
-  buttonElOne.textContent = (storyEls[0].choiceOne)
-  buttonElTwo.textContent = (storyEls[0].choiceTwo)
+  currentIndex = 0
+  buttonElOne.textContent = (storyEls[currentIndex].choiceOne)
+  buttonElTwo.textContent = (storyEls[currentIndex].choiceTwo)
 
-  messageEl.textContent = storyEls[0].scriptText
-  imageEl.setAttribute('src', storyEls[0].image)
+  messageEl.textContent = storyEls[currentIndex].scriptText
+  imageEl.setAttribute('src', storyEls[currentIndex].image)
 
-  buttonElOne.hidden = false
-  buttonElTwo.hidden = false
+  buttonElOne.id = 1
+  buttonElTwo.id = 2
+
+  buttonElOne.style.display = 'inline'
+  buttonElTwo.style.display = 'inline'
+
+  // buttonElOne.hidden = false
+  // buttonElTwo.hidden = false
 }
 
 function render(){
+  
+  buttonElOne.textContent = storyEls[currentIndex].choiceOne
+  buttonElOne.id = storyEls[currentIndex].choiceOneResults
+  
+  buttonElTwo.textContent = storyEls[currentIndex].choiceTwo
+
+  buttonElTwo.id = storyEls[currentIndex].choiceTwoResults
+  
   messageEl.innerHTML = storyEls[currentIndex].scriptText
 
   imageEl.setAttribute('src', storyEls[currentIndex].image)
-
-  buttonElOne.textContent = storyEls[currentIndex].choiceOne
-  buttonElOne.id = storyEls[currentIndex].choiceOneResults
-
-  buttonElTwo.textContent = storyEls[currentIndex].choiceTwo
-  buttonElTwo.id = storyEls[currentIndex].choiceTwoResults
   btnSound.play()
 }
 
+
 function handleClick(evt) {
   currentIndex = evt.target.id
+  console.log(evt.target)
   if (!storyEls[currentIndex].choiceOneResults){
-    buttonElOne.hidden = true
-    buttonElTwo.hidden = true
+    // buttonElOne.style.visibility = hidden
+    // buttonElTwo.style.visibility = hidden
+    buttonElOne.style.display = 'none'
+    buttonElTwo.style.display = 'none'
     // buttonContainer.style.display = 'none'
     // buttonContainer.removeChild(buttonElOne)
     // buttonContainer.removeChild(buttonElTwo)
+    console.log(currentIndex)
+    console.log(storyEls[currentIndex].choiceOneResults)
     console.log('game over!')
   }
   render()
