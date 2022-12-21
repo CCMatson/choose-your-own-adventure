@@ -64,12 +64,12 @@ const storyEls = [
     audio: "../assets/audio/button-click.wav "},
 
   {storyOrder: 7, 
-    scriptText: "You choose to to keep swimming into the dark. You do not see a 6-gill shark approaching, and you are eaten in one bite.", 
+    scriptText: "You swim deeper into the dark. You don't see the 15ft long 6-gill shark approaching. He mistakes you for a salmon and bites off your leg. You survive, barely. Better luck next time.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
     choiceTwoResults: null,
-    image: "../assets/images/waves.png",
+    image: "../assets/images/shark.gif",
     audio: " "},
 
   {storyOrder: 8, 
