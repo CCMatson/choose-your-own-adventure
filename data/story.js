@@ -7,8 +7,7 @@ const storyEls = [
     choiceOneResults: 1, 
     choiceTwoResults: 2,
     image: "../assets/images/waves.png",
-    audio: "../assets/audio/waves.wav",
-  },
+    audio: "../assets/audio/waves.wav"},
 
   {storyOrder: 1, 
     scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You get drenched and head home to rest after a long day.", 
@@ -20,7 +19,8 @@ const storyEls = [
     audio: " "},
 
   {storyOrder: 2, 
-    scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest?", choiceOne: "Octopus" , 
+    scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest?",
+    choiceOne: "Octopus" , 
     choiceTwo: "Kelp Forest" , 
     choiceOneResults: 3, 
     choiceTwoResults: 6,
@@ -53,7 +53,6 @@ const storyEls = [
     choiceTwoResults: null,
     image: "../assets/images/waves.png",
     audio: " "},
-
 
   {storyOrder: 6, 
     scriptText: "You swim toward the kelp forest. Out of the corner of your eye you see a flickering light. Do you follow the light, or keep swimming into the dark kelp forest", 
@@ -99,7 +98,6 @@ const storyEls = [
     choiceTwoResults: null,
     image: "../assets/images/waves.png",
     audio: " "}
-
 ]
 
 export { storyEls }

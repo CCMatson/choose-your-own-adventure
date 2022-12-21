@@ -1,8 +1,10 @@
-/* .container{
+.container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-} */
+  background-color: #0096c7 ;
+}
 
 body {
   background-color: slategrey;
@@ -16,9 +18,9 @@ header {
   background-color: #f4a261;
 }
 
-div {
+/* div {
   border: 1px solid black;
-}
+} */
 
 .text-box{
   height: 120px;
