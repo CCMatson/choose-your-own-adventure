@@ -28,12 +28,12 @@ const storyEls = [
     audio: "../assets/audio/button-click.wav "},
 
   {storyOrder: 3, 
-    scriptText: "You decide to visit the largest octopus species in the world. Giant Pacific Octopuses weigh about 90lbs on average and can stretch up to 20 feet. The GPO invites you to a dinner of crustaceans a little further deep in the sea. Do you go?",
+    scriptText: "You decide to visit the world's largest octopus species. The Giant Pacific Octopus weigh about 90lbs and can stretch up to 20 feet. Octopus invites you to a shellfish dinner deeper in the sea. Do you go?",
     choiceOne: "Go to dinner" , 
     choiceTwo: "Stay behind" , 
     choiceOneResults: 4 , 
     choiceTwoResults: 5,
-    image: "../assets/images/waves_octopus.png",
+    image: "../assets/images/octopus.gif",
     audio: " "},
 
   {storyOrder: 4, 
@@ -60,7 +60,7 @@ const storyEls = [
     choiceTwo: "Light" , 
     choiceOneResults: 7, 
     choiceTwoResults: 8,
-    image: "../assets/images/waves.png",
+    image: "../assets/images/kelp_moving.gif",
     audio: "../assets/audio/button-click.wav "},
 
   {storyOrder: 7, 
