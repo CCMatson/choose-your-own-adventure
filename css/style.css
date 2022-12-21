@@ -1,3 +1,9 @@
+/* .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 body {
   background-color: slategrey;
 }
@@ -7,7 +13,7 @@ nav {
 }
 
 header {
-  background-color: #f4a261
+  background-color: #f4a261;
 }
 
 div {
@@ -19,6 +25,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: #bde0fe;
 }
 
@@ -28,36 +35,27 @@ div {
 }
 
 .button-container{
-  height: 50px;
+  height: 125px;
   background-color: #2a9d8f;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-/* #choice-one{
-  height: 100px;
-  width: 100px;
-}
-
-#choice-two{
-  height: 100px;
-  width: 100px;
-} */ */
-
-/* button {
+button {
   padding: 10px;
   margin: 10px;
   font-size: 20px;
   background-color: transparent;
-  border: 10px solid rgba(0, 0, 0, .1);
+  border: 7px solid rgba(0, 0, 0, .1);
   width: 100px;
   height: 100px;
-  border-radius: 33%;
-  float: right;
-} */
+  border-radius: 33%; 
+}
 
 button:hover {
   border: 1px solid rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  background-color: #ADE8F4;
+  background-color: #f4a261;;
 }
 
 footer{

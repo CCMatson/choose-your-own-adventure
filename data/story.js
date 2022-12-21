@@ -11,7 +11,7 @@ const storyEls = [
   },
 
   {storyOrder: 1, 
-    scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You head home to rest after a long day.", 
+    scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You get drenched and head home to rest after a long day.", 
     choiceOne: " ", 
     choiceTwo: " " , 
     choiceOneResults: null, 
@@ -20,7 +20,7 @@ const storyEls = [
     audio: " "},
 
   {storyOrder: 2, 
-    scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest? ", choiceOne: "Octopus" , 
+    scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest?", choiceOne: "Octopus" , 
     choiceTwo: "Kelp Forest" , 
     choiceOneResults: 3, 
     choiceTwoResults: 6,
@@ -37,7 +37,7 @@ const storyEls = [
     audio: " "},
 
   {storyOrder: 4, 
-    scriptText: "You follow the octopus to rocky caves. It's dark, but you can see that the rocks are covered in clams. Everytime you reach out to grab a clam, a sea otter grabs it out of your hand. With all this competition for food, you give up and swim home to make a peanut butter sandwich", 
+    scriptText: "You follow the octopus to rocky caves. It's dark, but you can see that the rocks are covered in clams. Everytime you reach out to grab a clam, a sea otter grabs it out of your hand. With all this competition for food, you give up and swim home to make a peanut butter sandwich.", 
     choiceOne: " ", 
     choiceTwo: " " , 
     choiceOneResults: null, 

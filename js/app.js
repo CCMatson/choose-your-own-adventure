@@ -43,9 +43,7 @@ function render(){
 
   buttonElTwo.textContent = storyEls[currentIndex].choiceTwo
   buttonElTwo.id = storyEls[currentIndex].choiceTwoResults
-
     // waveSound.play()
-
 }
 
 function handleClick(evt) {
