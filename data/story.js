@@ -1,7 +1,7 @@
 const storyEls = [
 
   {storyOrder: 0,
-    scriptText: "Welcome to the Salish Sea, the inland sea that encompasses Puget Sound, the San Juan Islands and the waters off of Vancouver, BC. Do you want to stay on the land or explore the water?", 
+    scriptText: "Welcome to the Salish Sea, the inland sea that contains Puget Sound, the San Juan Islands and the waters off of Vancouver, BC, Canada. Do you want to stay on the land or explore the water?", 
     choiceOne: "Stay on land", 
     choiceTwo: "Explore the water", 
     choiceOneResults: 1, 
@@ -15,7 +15,7 @@ const storyEls = [
     choiceTwo: " " , 
     choiceOneResults: null, 
     choiceTwoResults: null,
-    image: "../assets/images/waves.png",
+    image: "../assets/images/storm_clouds.gif",
     audio: "../assets/audio/button-click.wav"},
 
   {storyOrder: 2, 
@@ -73,12 +73,12 @@ const storyEls = [
     audio: " "},
 
   {storyOrder: 8, 
-    scriptText: "You follow the light, and find jellyfish glowing in the dark! Floating in the water column, you are the calmest you've ever felt. As you slip into a meditative state you hear a low loud sound. Do you stay or go follow the sounds?", 
+    scriptText: "You follow the light, and find jellyfish glowing brightly in the dark water! Floating in their biolumensent glow, you start to slip into a meditative state when you hear a low loud sound. Do you stay or go follow the sounds?", 
     choiceOne: "Stay with the jellies" , 
     choiceTwo: "Explore the sounds" , 
     choiceOneResults: 9, 
     choiceTwoResults: 10,
-    image: "../assets/images/waves.png",
+    image: "../assets/images/jellyfish_family.gif",
     audio: "../assets/audio/freeWilly.mp3"},
   
   {storyOrder: 9, 
