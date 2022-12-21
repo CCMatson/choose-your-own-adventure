@@ -1,7 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 import { storyEls } from "../data/story.js"
 const btnSound = new Audio("../assets/audio/button-click.wav")
-const orcaSound = new Audio("../assets/audio/freeWilly.mp3")
+
 
 /*-------------------------------- Variables --------------------------------*/
 let currentIndex = 0

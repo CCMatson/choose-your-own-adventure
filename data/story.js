@@ -55,7 +55,7 @@ const storyEls = [
     audio: "../assets/audio/button-click.wav "},
 
   {storyOrder: 6, 
-    scriptText: "You swim toward the kelp forest. Out of the corner of your eye you see a flickering light. Do you follow the light, or keep swimming into the dark kelp forest", 
+    scriptText: "You swim toward the kelp forest. Out of the corner of your eye you see a flickering light. Do you follow the light, or keep swimming into the dark kelp forest?", 
     choiceOne: "Dark" , 
     choiceTwo: "Light" , 
     choiceOneResults: 7, 
