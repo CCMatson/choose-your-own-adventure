@@ -7,7 +7,7 @@ const storyEls = [
     choiceOneResults: 1, 
     choiceTwoResults: 2,
     image: "../assets/images/waves.png",
-    audio: "../assets/audio/waves.wav"},
+    audio: "../assets/audio/button-click.wav"},
 
   {storyOrder: 1, 
     scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You get drenched and head home to rest after a long day.", 
@@ -16,7 +16,7 @@ const storyEls = [
     choiceOneResults: null, 
     choiceTwoResults: null,
     image: "../assets/images/waves.png",
-    audio: " "},
+    audio: "../assets/audio/button-click.wav"},
 
   {storyOrder: 2, 
     scriptText: "You dive into the cold, calm water. Do you want to find a great pacific octopus or visit the kelp forest?",
@@ -25,7 +25,7 @@ const storyEls = [
     choiceOneResults: 3, 
     choiceTwoResults: 6,
     image: "../assets/images/waves_diver.png",
-    audio: " "},
+    audio: "../assets/audio/button-click.wav "},
 
   {storyOrder: 3, 
     scriptText: "You decide to visit the largest octopus species in the world. Giant Pacific Octopuses weigh about 90lbs on average and can stretch up to 20 feet. The GPO invites you to a dinner of crustaceans a little further deep in the sea. Do you go?",
@@ -73,7 +73,7 @@ const storyEls = [
     audio: " "},
 
   {storyOrder: 8, 
-    scriptText: "You follow the light, and find jellyfish glowing in the dark! Floating in the water column, you are the calmest you've ever felt. As you slip into a meditative state you hear a low loud sound. Do you stay or go follow the sounds", 
+    scriptText: "You follow the light, and find jellyfish glowing in the dark! Floating in the water column, you are the calmest you've ever felt. As you slip into a meditative state you hear a low loud sound. Do you stay or go follow the sounds?", 
     choiceOne: "Stay with the jellies" , 
     choiceTwo: "Explore the sounds" , 
     choiceOneResults: 9, 
@@ -82,7 +82,7 @@ const storyEls = [
     audio: " "},
   
   {storyOrder: 9, 
-    scriptText: "You float with the jellies for the afternoon and meditate. Later you return home, feeling happy and calm. ", 
+    scriptText: "You float with the jellies for the afternoon and meditate. Later you return home, feeling happy and calm.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 

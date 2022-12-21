@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0096c7 ;
+  background-color: #bde0fe;
 }
 
 body {
@@ -38,7 +38,7 @@ header {
 
 .button-container{
   height: 125px;
-  background-color: #2a9d8f;
+  background-color: #bde0fe;;
   display: flex;
   justify-content: space-evenly;
 }
@@ -46,7 +46,7 @@ header {
 button {
   padding: 10px;
   margin: 10px;
-  font-size: 20px;
+  font-size: 18px;
   background-color: transparent;
   border: 7px solid rgba(0, 0, 0, .1);
   width: 100px;
@@ -61,5 +61,8 @@ button:hover {
 }
 
 footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   background-color: #f1faee;
 }

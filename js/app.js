@@ -1,6 +1,6 @@
 /*-------------------------------- Constants --------------------------------*/
 import { storyEls } from "../data/story.js"
-const waveSound = new Audio("../assets/audio/waves.wav")
+const btnSound = new Audio("../assets/audio/button-click.wav")
 
 /*-------------------------------- Variables --------------------------------*/
 let currentIndex = 0
@@ -18,7 +18,10 @@ let resetBtnEl = document.querySelector(".reset")
 
 buttonElOne.addEventListener("click", handleClick)
 buttonElTwo.addEventListener("click", handleClick)
-resetBtnEl.addEventListener("click", init)
+resetBtnEl.addEventListener("click", () => {
+  btnSound.play(), init()
+}
+)
 
 // console.log(buttonElOne)
 // console.log(buttonElTwo)
@@ -46,11 +49,10 @@ function render(){
 
   buttonElTwo.textContent = storyEls[currentIndex].choiceTwo
   buttonElTwo.id = storyEls[currentIndex].choiceTwoResults
-    // waveSound.play()
+  btnSound.play()
 }
 
 function handleClick(evt) {
-  // waveSound.play()
   currentIndex = evt.target.id
   if (!storyEls[currentIndex].choiceOneResults){
     buttonElOne.hidden = true
