@@ -65,7 +65,7 @@ const storyEls = [
     image: "../assets/images/shark.gif"},
 
   {storyOrder: 8, 
-    scriptText: "You follow the light, and find jellyfish glowing brightly in the dark water! Basking in their biolumensent glow, you fell at peace. Suddenly, you hear a mysterious loud sound. Do you stay or go follow the sounds?", 
+    scriptText: "You follow the light, and find jellyfish glowing brightly in the dark water! Basking in their biolumensent glow, you feel at peace. Suddenly, you hear a mysterious loud sound. Do you stay or go follow the sounds?", 
     choiceOne: "Stay with the jellies" , 
     choiceTwo: "Explore the sound" , 
     choiceOneResults: 9, 
