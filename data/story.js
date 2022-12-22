@@ -81,7 +81,7 @@ const storyEls = [
     image: "../assets/images/jellyfish_love.gif"},
 
   {storyOrder: 10, 
-    scriptText: "You choose to follow the sounds and find a family of southern resident Orca whales! You spend the afternoon together playing, diving, and singing ancient songs. This is the best day of your life! The end.", 
+    scriptText: "You choose to follow the sounds and find a family of southern resident Orca whales! You spend the afternoon with them playing, diving, and singing ancient songs. This is the best day of your life! The end.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
