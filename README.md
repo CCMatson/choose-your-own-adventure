@@ -34,3 +34,7 @@ Icons
 <a href="https://www.flaticon.com/free-icons/orca" title="orca icons">Orca icons created by Flat Icons - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/diver" title="diver icons">Diver icons created by surang - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/salmon" title="salmon icons">Salmon icons created by BomSymbols - Flaticon</a>
+
+Icebox:
+- Add responsive design
+

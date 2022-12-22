@@ -38,7 +38,7 @@ function init(){
   currentIndex = 0
   buttonElOne.textContent = (storyEls[currentIndex].choiceOne)
   buttonElTwo.textContent = (storyEls[currentIndex].choiceTwo)
-
+  
   messageEl.textContent = storyEls[currentIndex].scriptText
   imageEl.setAttribute('src', storyEls[currentIndex].image)
 
@@ -56,10 +56,11 @@ function render(){
   
   buttonElOne.textContent = storyEls[currentIndex].choiceOne
   buttonElOne.id = storyEls[currentIndex].choiceOneResults
+  buttonElOne.classList.add('animate__animated' , 'animated__bounce')
   
   buttonElTwo.textContent = storyEls[currentIndex].choiceTwo
-
   buttonElTwo.id = storyEls[currentIndex].choiceTwoResults
+  buttonElTwo.classList.add('animate__animated' , 'animated__bounce')
   
   messageEl.innerHTML = storyEls[currentIndex].scriptText
 
