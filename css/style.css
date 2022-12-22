@@ -5,7 +5,9 @@
   align-items: center;
   background-color: #caf0f8;
   font-family: 'Permanent Marker', cursive;
-font-family: 'Sen', sans-serif;
+  font-family: 'Sen', sans-serif;
+  background-color: #4361ee ;
+  /* background: url("../assets/images/vertical_waves.png"); */
 }
 
 body {
@@ -29,18 +31,21 @@ header {
 } */
 
 .text-box{
+  padding: 10px;
   height: 120px;
   width: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: transparent;
-  font-size: 18px;
+  background-color: lightblue;
+  font-size: 20px;
+  border: #caf0f8 solid ;
 
 }
 
 .image{
+  padding: 10px;
   height: 400px;
   width: 600px;
 }
@@ -72,9 +77,15 @@ button:hover {
   background-color: #f4a261;;
 }
 
-footer{
+/* footer{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: #f1faee;
+  background-color: #caf0f8;
+} */
+.reset-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #00b4d8;
 }

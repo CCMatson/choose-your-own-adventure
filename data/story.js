@@ -33,7 +33,7 @@ const storyEls = [
     image: "../assets/images/octopus.gif"},
 
   {storyOrder: 4, 
-    scriptText: "You follow the octopus, hoping he'll take you to get clams for dinner, but something scares him and he activates his camouflage to disappear. You end up alone, lost in the Puget Sound. The end.", 
+    scriptText: "You follow the octopus, hoping he'll take you to get clams, but something scares him and he activates his camouflage to disappear. You end up alone, lost in the Puget Sound. The end.", 
     choiceOne: " ", 
     choiceTwo: " " , 
     choiceOneResults: null, 
