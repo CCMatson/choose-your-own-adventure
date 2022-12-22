@@ -33,7 +33,7 @@ const storyEls = [
     image: "../assets/images/octopus.gif"},
 
   {storyOrder: 4, 
-    scriptText: "You follow the octopus, hoping he'll take you to get clams, but something scares him and he activates his camouflage to disappear. You end up alone, lost in the Puget Sound. The end.", 
+    scriptText: "You follow the octopus, hoping he'll take you to get clams, but something scares him and he activates his camouflage to disappear. You end up alone, lost at the bottom of the Puget Sound. Better luck next time. The end.", 
     choiceOne: " ", 
     choiceTwo: " " , 
     choiceOneResults: null, 
@@ -73,7 +73,7 @@ const storyEls = [
     image: "../assets/images/jellyfish_family.gif"},
   
   {storyOrder: 9, 
-    scriptText: "You float with the jellies for the afternoon and meditate. Later you return home, feeling calm and happy. You have found inner peace. The end.", 
+    scriptText: "You float with the jellies for the afternoon. You meditate and let go of your stress. Later when you get home you feel calm and happy. You have found inner peace. The end.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
