@@ -9,7 +9,7 @@ const storyEls = [
     image: "../assets/images/title_page.gif"},
 
   {storyOrder: 1, 
-    scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You get drenched and head home to rest after a long day. The end.", 
+    scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You get drenched and head home with wet socks. Better luck next time. The end.", 
     choiceOne: " ", 
     choiceTwo: " " , 
     choiceOneResults: null, 
@@ -25,7 +25,7 @@ const storyEls = [
     image: "../assets/images/kelp_or_octopus.gif"},
 
   {storyOrder: 3, 
-    scriptText: "You decide to visit the world's largest octopus species. The Giant Pacific Octopus weigh about 90lbs and can stretch up to 20 feet. Octopus invites you to a shellfish dinner in Puget Sound. Do you go to dinner?",
+    scriptText: "You decide to visit the Giant Pacific Octopus, the world's largest octopus species. They weigh about 90lbs and can stretch up to 20 feet. Octopus invites you to a shellfish dinner in Puget Sound. Do you go to dinner?",
     choiceOne: "Go to dinner" , 
     choiceTwo: "Stay behind" , 
     choiceOneResults: 4 , 
@@ -41,7 +41,7 @@ const storyEls = [
     image: "../assets/images/lost_octopus.gif"},
     
   {storyOrder: 5, 
-    scriptText: "You stay behind and are rewarded by seeing a run of coho salmon swimming home to spawn. You return home feeling inspired by the circle of life. The end.", 
+    scriptText: "You stay behind and are rewarded by seeing a run of coho salmon swimming home to spawn. You return to your own home feeling inspired by the circle of life. The end.", 
     choiceOne: " ", 
     choiceTwo: " ", 
     choiceOneResults: null , 
@@ -65,9 +65,9 @@ const storyEls = [
     image: "../assets/images/shark.gif"},
 
   {storyOrder: 8, 
-    scriptText: "You follow the light, and find jellyfish glowing brightly in the dark water! Floating in their biolumensent glow, you start to slip into a meditative state when you hear a low loud sound. Do you stay or go follow the sounds?", 
+    scriptText: "You follow the light, and find jellyfish glowing brightly in the dark water! Basking in their biolumensent glow, you fell at peace. Suddenly, you hear a mysterious loud sound. Do you stay or go follow the sounds?", 
     choiceOne: "Stay with the jellies" , 
-    choiceTwo: "Explore the sounds" , 
+    choiceTwo: "Explore the sound" , 
     choiceOneResults: 9, 
     choiceTwoResults: 10,
     image: "../assets/images/jellyfish_family.gif"},
