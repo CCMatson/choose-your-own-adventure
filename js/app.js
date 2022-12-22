@@ -16,14 +16,14 @@ let buttonElTwo = document.querySelector(".choice-two")
 let resetBtnEl = document.querySelector(".reset")
 
 /*----------------------------- Event Listeners -----------------------------*/
-
+//notes about eventlisteners
 buttonElOne.addEventListener("click", handleClick)
 buttonElTwo.addEventListener("click", handleClick)
 resetBtnEl.addEventListener("click", () => {
   init()
   btnSound.play()
 console.log(currentIndex)
-console.log(storyEls[currentIndex].choiceOneResults)
+console.log(storyEls[currentIndex].choiceOneResults) 
 })
 
   // btnSound.play(), init(), currentIndex = 0
