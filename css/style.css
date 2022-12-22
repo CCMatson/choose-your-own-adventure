@@ -32,7 +32,7 @@ header {
 
 .text-box{
   padding: 10px;
-  height: 75px;
+  height: 100px;
   width: 550px;
   display: flex;
   justify-content: center;
