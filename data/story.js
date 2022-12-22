@@ -6,7 +6,7 @@ const storyEls = [
     choiceTwo: "Explore the water", 
     choiceOneResults: 1, 
     choiceTwoResults: 2,
-    image: "../assets/images/waves.png"},
+    image: "../assets/images/title_page.gif"},
 
   {storyOrder: 1, 
     scriptText: "You decide to take a walk along the shoreline to avoid the water. Unfortunately, it starts to rain. You get drenched and head home to rest after a long day. The end.", 
@@ -25,7 +25,7 @@ const storyEls = [
     image: "../assets/images/kelp_or_octopus.gif"},
 
   {storyOrder: 3, 
-    scriptText: "You decide to visit the world's largest octopus species. The Giant Pacific Octopus weigh about 90lbs and can stretch up to 20 feet. Octopus invites you to a shellfish dinner deeper in Puget Sound. Do you go?",
+    scriptText: "You decide to visit the world's largest octopus species. The Giant Pacific Octopus weigh about 90lbs and can stretch up to 20 feet. Octopus invites you to a shellfish dinner in Puget Sound. Do you go to dinner?",
     choiceOne: "Go to dinner" , 
     choiceTwo: "Stay behind" , 
     choiceOneResults: 4 , 
@@ -33,12 +33,12 @@ const storyEls = [
     image: "../assets/images/octopus.gif"},
 
   {storyOrder: 4, 
-    scriptText: "You follow the octopus, hoping to get some clams. Something scares him and he activates his camaflogue to disappear. You end up alone, lost in the Puget Sound. The end.", 
+    scriptText: "You follow the octopus, hoping he'll take you to get clams for dinner, but something scares him and he activates his camouflage to disappear. You end up alone, lost in the Puget Sound. The end.", 
     choiceOne: " ", 
     choiceTwo: " " , 
     choiceOneResults: null, 
     choiceTwoResults: null,
-    image: "../assets/images/waves.png"},
+    image: "../assets/images/lost_octopus.gif"},
     
   {storyOrder: 5, 
     scriptText: "You stay behind and are rewarded by seeing a run of coho salmon swimming home to spawn. You return home feeling inspired by the circle of life. The end.", 
@@ -57,7 +57,7 @@ const storyEls = [
     image: "../assets/images/kelp_moving.gif"},
 
   {storyOrder: 7, 
-    scriptText: "You swim deeper into the dark. You don't see the 15ft long 6-gill shark approaching. He mistakes you for a salmon and bites off your leg. You survive, barely. Better luck next time.", 
+    scriptText: "You swim deeper into the dark. You don't see the 15ft long 6-gill shark approaching. He mistakes you for a salmon and bites off your leg. You survive, barely. Better luck next time. The end.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
@@ -73,7 +73,7 @@ const storyEls = [
     image: "../assets/images/jellyfish_family.gif"},
   
   {storyOrder: 9, 
-    scriptText: "You float with the jellies for the afternoon and meditate. Later you return home, feeling happy and calm.", 
+    scriptText: "You float with the jellies for the afternoon and meditate. Later you return home, feeling calm and happy. You have found inner peace. The end.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
@@ -81,7 +81,7 @@ const storyEls = [
     image: "../assets/images/jellyfish_love.gif"},
 
   {storyOrder: 10, 
-    scriptText: "You choose to follow the sounds and find a family of Orca whales singing. They welcome you and you spend the afternoon with them playing, diving, and singing ancient songs. This is the best day of your life!", 
+    scriptText: "You choose to follow the sounds and find a family of southern resident Orca whales! You spend the afternoon together playing, diving, and singing ancient songs. This is the best day of your life! The end.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
