@@ -6,23 +6,29 @@
 
 When I made this game, I imaged that my client was an aquarium in the Pacific Northwest. In Washington State, many people and animals rely on our natural resources including the Salish Sea. This game is intended to be used as engagement piece that could be played to get someone excited to learn more about life underwater. 
 
-Technologies used: 
+## Technologies used: 
 - HTML 
 - CSS 
 - Javascript
 - Git
 - Canva.com
 
-Atttributions: 
+## Attributions: 
 
-Audio
+### Audio
 Click sound from [Freesound.org](https://freesound.org/people/brnck/sounds/257357/)
 
-Images
-Salish Sea Map from [OurSalishSea.ca](https://oursalishsea.ca/what-is-the-salish-sea/)
+### Images
+Salish Sea map from [OurSalishSea.ca](https://oursalishsea.ca/what-is-the-salish-sea/)
 
-Icons
+### Backgrounds
+Background art made with [Haikei](https://haikei.app/)
 
+### Animations 
+Button animations are from [CSS Animate Style](https://animate.style/)
+Image animations were made using [Canva.com](https://canva.com)
+
+### Icons
 <a href="https://www.flaticon.com/free-icons/algae" title="algae icons">Algae icons created by Icongeek26 - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/shark" title="shark icons">Shark icons created by Icongeek26 - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/octopus" title="octopus icons">Octopus icons created by Icongeek26 - Flaticon</a>
@@ -35,6 +41,6 @@ Icons
 <a href="https://www.flaticon.com/free-icons/diver" title="diver icons">Diver icons created by surang - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/salmon" title="salmon icons">Salmon icons created by BomSymbols - Flaticon</a>
 
-Icebox:
+## Icebox:
 - Add responsive design
 

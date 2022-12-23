@@ -67,13 +67,6 @@ button:hover {
   background-color: #f4a261;;
 }
 
-.reset-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  background-color: #00b4d8;
-}
-
 #button-container > button:last-child {
   flex-direction: row;
   justify-content: flex-end;
