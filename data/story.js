@@ -57,7 +57,7 @@ const storyEls = [
     image: "../assets/images/kelp_moving.gif"},
 
   {storyOrder: 7, 
-    scriptText: "You swim deeper into the dark. You don't see the 15ft long 6-gill shark approaching. He mistakes you for a salmon and bites off your leg. You survive, barely. Better luck next time. The end.", 
+    scriptText: "You swim deeper into the dark. You don't see the 15ft long six-gill shark approaching. He mistakes you for a salmon and bites off your leg. You survive, barely. Better luck next time. The end.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
@@ -73,7 +73,7 @@ const storyEls = [
     image: "../assets/images/jellyfish_family.gif"},
   
   {storyOrder: 9, 
-    scriptText: "You float with the jellies for the afternoon. You meditate and let go of your stress. Later when you get home you feel calm and happy. You have found inner peace. The end.", 
+    scriptText: "You float with the jellies for the afternoon. You meditate and let go of your stress. Later when you get home, you feel calm and happy. You have found inner peace. The end.", 
     choiceOne: " " , 
     choiceTwo: " " , 
     choiceOneResults: null, 
