@@ -6,7 +6,7 @@
 
 ![](/assets/images/Screenshot.png)
 
-When I made this game, I imaged that my client was an marine-related industry or aquarium in the Pacific Northwest. In Washington State, many people and animals rely on our natural resources, including the Salish Sea. Marine industries and aquariums educate the public about the diversity of life under water, and importance of these natural resource. This game is intended to be used as engagement piece that could be played to get someone excited to learn more about life under water in the Salish Sea. 
+This game is intended to be used as engagement piece that could be played to get someone excited to learn more about life under water. When I made this game, I imagined that my client was an marine-related industry or aquarium in the Pacific Northwest. In Washington State, many people and animals rely on natural resources, including the Salish Sea. Marine industries and aquariums use media, like this choose your own adventure game, to educate the public about the diversity of life under water and importance of these natural resource. 
 
 ## Technologies used 💾  
 - HTML 
@@ -44,10 +44,10 @@ Image animations were made using [Canva.com](https://canva.com)
 
 ## Icebox 
 - Add responsive and mobile ready design
-- Scale story data
-- Add new stories through additional data sheets
+- Accessibility features
 - Include trivia, games, or challenges
 - Dark mode
-- Accessibility features
+- Scale story data
+- Add new stories through additional data sheets
 
 

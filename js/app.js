@@ -20,8 +20,6 @@ buttonElTwo.addEventListener("click", handleClick)
 resetBtnEl.addEventListener("click", () => {
   init()
   btnSound.play()
-console.log(currentIndex)
-console.log(storyEls[currentIndex].choiceOneResults) 
 })
 
 /*-------------------------------- Functions --------------------------------*/
@@ -29,6 +27,7 @@ init()
 
 function init(){
   currentIndex = 0
+  
   buttonElOne.textContent = (storyEls[currentIndex].choiceOne)
   buttonElTwo.textContent = (storyEls[currentIndex].choiceTwo)
 
