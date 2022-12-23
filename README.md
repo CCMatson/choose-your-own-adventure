@@ -4,7 +4,7 @@
 
 [PLAY GAME HERE](https://ccmatson-choose-your-own-adventure.netlify.app/)
 
-![Screenshot of winning ending of game, featuring an orca whale](./assets/images/Screenshot.png)
+![](/assets/images/Screenshot.png)
 
 When I made this game, I imaged that my client was an marine-related industry or aquarium in the Pacific Northwest. In Washington State, many people and animals rely on our natural resources, including the Salish Sea. Marine industries and aquariums educate the public about the diversity of life under water, and importance of these natural resource. This game is intended to be used as engagement piece that could be played to get someone excited to learn more about life under water in the Salish Sea. 
 
