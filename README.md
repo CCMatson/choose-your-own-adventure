@@ -2,7 +2,7 @@
 
 ## Underwater In The Salish Sea 🌊
 
-[PLAY GAME HERE](https://ccmatson-choose-your-own-adventure.netlify.app/)
+## [CLICK HERE TO PLAY GAME](https://ccmatson-choose-your-own-adventure.netlify.app/)
 
 ![](/assets/images/Screenshot.png)
 
