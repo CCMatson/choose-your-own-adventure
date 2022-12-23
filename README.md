@@ -45,6 +45,9 @@ Image animations were made using [Canva.com](https://canva.com)
 ## Icebox 
 - Add responsive and mobile ready design
 - Scale story data
-- Add additional stories through new data sheets
+- Add new stories through additional data sheets
+- Include trivia, games, or challenges
+- Dark mode
+- Accessibility features
 
 
