@@ -25,7 +25,7 @@ Salish Sea map from [OurSalishSea.ca](https://oursalishsea.ca/what-is-the-salish
 Background art made with [Haikei](https://haikei.app/)
 
 ### Animations 
-Button animations are from [CSS Animate Style](https://animate.style/)
+Button animations are from [CSS Animate Style](https://animate.style/)<br>
 Image animations were made using [Canva.com](https://canva.com)
 
 ### Icons
