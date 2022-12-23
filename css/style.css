@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@ header {
   background-color: #f4a261;
 }
 
-.text-box{
+.text-box {
   padding: 10px;
   height: 100px;
   width: 550px;
@@ -31,13 +31,13 @@ header {
   background-color: lightblue;
 }
 
-.image{
+.image { 
   padding: 15px;
   height: 400px;
   width: 600px;
 }
 
-#button-container{
+#button-container {
   height: 125px;
   display: flex;
   justify-content: space-evenly;

@@ -9,10 +9,10 @@ let currentIndex = 0
 const messageEl = document.getElementById("msg")
 const imageEl = document.getElementById("img")
 
-let buttonContainer = document.querySelector(".button-container")
-let buttonElOne = document.querySelector(".choice-one")
-let buttonElTwo = document.querySelector(".choice-two")
-let resetBtnEl = document.querySelector(".reset")
+const buttonContainer = document.querySelector(".button-container")
+const buttonElOne = document.querySelector(".choice-one")
+const buttonElTwo = document.querySelector(".choice-two")
+const resetBtnEl = document.querySelector(".reset")
 
 /*----------------------------- Event Listeners -----------------------------*/
 buttonElOne.addEventListener("click", handleClick)
